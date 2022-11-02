@@ -3,12 +3,17 @@ server:
 spring:
   application:
     name: config-server
-  profiles:
-    active:
-      - native
+  #  profiles:
+  #    active:
+  #      - native
+  #- localhost:8888/application-qa/default
   cloud:
     config:
       server:
         git:
-          uri:
-#- localhost:8888/application-qa/default
+          uri: https://github.com/mayconht/Microservices-Study/
+          default-label: master
+          search-paths:
+            - 'ConfigServiceCloudYml'
+            - 'config'
+#  localhost:8888/greeting-service/default
