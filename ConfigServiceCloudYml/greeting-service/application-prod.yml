@@ -8,5 +8,5 @@ management:
         include:
           - '*'
 greeting-service:
-  greeting: "hello"
-  default-name: "prod"
+  greeting: "hello-v2"
+  default-name: "prod-v2"
