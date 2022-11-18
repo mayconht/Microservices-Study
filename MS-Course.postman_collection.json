@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "d93fcf04-a3fb-4e92-b7e1-d786170b5072",
+		"name": "MS-Course",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Phase - 1",
+			"item": [
+				{
+					"name": "HR-Worker",
+					"item": []
+				}
+			]
+		},
+		{
+			"name": "All workers",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Worker by ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
