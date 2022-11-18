@@ -1,13 +1,13 @@
-package br.com.cambio;
+package com.studyms.hrworker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CambioApplication {
+public class HrWorkerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CambioApplication.class, args);
+		SpringApplication.run(HrWorkerApplication.class, args);
 	}
 
 }

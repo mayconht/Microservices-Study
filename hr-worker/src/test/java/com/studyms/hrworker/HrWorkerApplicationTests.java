@@ -1,10 +1,10 @@
-package br.com.cambio;
+package com.studyms.hrworker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CambioApplicationTests {
+class HrWorkerApplicationTests {
 
 	@Test
 	void contextLoads() {
